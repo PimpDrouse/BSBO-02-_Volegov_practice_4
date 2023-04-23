@@ -45,7 +45,7 @@ public class MyService extends Service {
 
         startForeground(1, builder.build());
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.vivaldi_mp3);
+        mediaPlayer = MediaPlayer.create(this, R.raw.vivaldi);
         mediaPlayer.setLooping(false);
     }
 
